@@ -2,8 +2,8 @@ import axios from 'axios';
 import {logout} from '../redux/reducers/authUser';
 import {store} from '../redux/store';
 
-
-const url = 'https://boowallet-private-server.vercel.app/';
+// put here the backend url 
+const url = '';
 
 const https = token => {
   const headers = {};
